@@ -1,0 +1,31 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* Box-sizing ----> Toma del borde, relleno y ancho de la página*/
+    box-sizing: border-box;
+}
+
+
+
+.checkbtn{
+    font-size: 20px;
+    color: #FFEBC1;
+    /*Elemento a la derecha*/
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    /* Ocultamos el elemento*/
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 65vh;
+}
